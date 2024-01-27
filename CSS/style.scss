@@ -1,0 +1,134 @@
+:root {
+    /* Define Colors */
+    --main-background-color: #000000; 
+    --primary-color: #4A50D6;
+    --secondary-color: #382B47;
+    --fordetails-color: #71F045;
+    --black-color: #000000;
+    --white-color: #fff;
+
+    /* Spacing factor */
+    --scale-factor: 1.5;
+
+    /* Spacing Variables */
+    --base-spacing: 1rem;
+    --small-spacing: 0.5rem;
+    --large-spacing: 2rem;
+
+    /* Padding Variables */
+    --padding-small: var(--small-spacing);
+    --padding-large: var(--large-spacing);
+
+    /* Margin Variables */
+    --margin-top: var(--base-spacing);
+    --margin-bottom: var(--base-spacing);
+    --margin-left: var(--small-spacing);
+    --margin-right: var(--small-spacing);
+}
+
+body {
+    margin: 0;
+    background-color: var(--main-background-color);
+}
+
+.Navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+    background-color: var(--black-color);
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 4.5rem;
+}
+
+.Nav-links{
+    display: flex;
+    align-items: center;     
+}
+
+.Nav-links li {
+    margin-right: 4rem;
+    list-style: none;
+}
+
+.Nav-links li:not(:last-child) a {
+    padding: 1rem 2rem;
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease; 
+}
+
+
+.Nav-links li:nth-child(4) a{
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    //   color: #000000;
+}
+
+   // Navabr hover and animations start here 
+
+
+.Nav-links li:not(:nth-child(4)) a:hover{
+    color: var(--fordetails-color);
+}
+
+.Nav-links li:nth-child(4) a:hover{
+    background-color:var(--white-color);
+    color: var(--black-color);
+}
+
+    // Hero section started
+
+.hero-section-container {
+    display: flex;
+    justify-content: flex-start; /* Align content to the start (left side) */
+    align-items: center;
+    padding-top: 5rem;
+    height: 90vh;  
+}
+  
+.hero-img {
+    position: relative;
+    width: 50vw;
+    height: 80vh;
+    z-index: 2;
+}
+
+.image {
+   margin: 6rem 0rem;
+}
+
+.background-rectangle  {
+    position: relative;
+    width: 65%; 
+    height: 90vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    margin-left: -200px;
+}
+
+.background-rectangle h1 {
+    margin-top: 5rem;
+    margin-right: 4.5rem;
+    color: var(--White, #FFF);
+    font-family: Sen;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    padding-left: 15rem;
+    margin-top: 5rem;
+}
+
+.background-rectangle p{
+    margin: 0 0 0 15rem;
+}
