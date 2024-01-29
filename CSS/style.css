@@ -121,43 +121,4 @@ body {
 
 .background-rectangle p {
   margin: 0 0 0 15rem;
-}
-
-.experence-section-conatiner {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 5rem;
-  height: 725px;
-  background-color: var(--black-color);
-}
-
-.work-experence {
-  height: 160px;
-  width: 675px;
-}
-
-.experence-section-conatiner p {
-  color: var(--gray-color);
-  margin-left: 72px;
-  width: 150px;
-  height: 24px;
-}
-
-.experence-section-conatiner h2 {
-  color: var(--white-color);
-  margin-left: 72px;
-  width: 675px;
-  height: 132px;
-}
-
-.experence-section-conatiner .project-card {
-  font-size: 117px;
-  color: var(--gray-color);
-}
-
-.project-card {
-  width: 417px;
-  height: 275px;
-  display: flex;
-  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
