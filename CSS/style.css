@@ -6,6 +6,7 @@
   --fordetails-color: #71F045;
   --black-color: #000000;
   --white-color: #fff;
+  --gray-color:#656565;
   /* Spacing factor */
   --scale-factor: 1.5;
   /* Spacing Variables */
@@ -77,7 +78,7 @@ body {
 
 .hero-section-container {
   display: flex;
-  justify-content: flex-start; /* Align content to the start (left side) */
+  justify-content: flex-start;
   align-items: center;
   padding-top: 5rem;
   height: 90vh;
@@ -120,4 +121,43 @@ body {
 
 .background-rectangle p {
   margin: 0 0 0 15rem;
+}
+
+.experence-section-conatiner {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 5rem;
+  height: 725px;
+  background-color: var(--black-color);
+}
+
+.work-experence {
+  height: 160px;
+  width: 675px;
+}
+
+.experence-section-conatiner p {
+  color: var(--gray-color);
+  margin-left: 72px;
+  width: 150px;
+  height: 24px;
+}
+
+.experence-section-conatiner h2 {
+  color: var(--white-color);
+  margin-left: 72px;
+  width: 675px;
+  height: 132px;
+}
+
+.experence-section-conatiner .project-card {
+  font-size: 117px;
+  color: var(--gray-color);
+}
+
+.project-card {
+  width: 417px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
