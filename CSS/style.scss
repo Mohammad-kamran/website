@@ -137,7 +137,7 @@ body {
     // Experence Section 
 
 .experence-section-conatiner{
-    display: flex;
+    display: grid;
     justify-content: flex-start; 
     // align-items: center;
     padding-top: 5rem;
@@ -147,6 +147,9 @@ body {
 .work-experence{
     height: 160px;
     width: 675px;
+}
+.work-experence h2{
+    font-size: 55px;
 }
 
 .experence-section-conatiner p{
@@ -163,14 +166,15 @@ body {
     height: 132px;
 }
 
-.experence-section-conatiner .project-card{
+.experence-section-conatiner .project-card #Number {
     font-size: 117px;
     color: var(--gray-color);
 }
-.project-card{
-    width: 417px;
-    height: 275px;
+.project-card {
     display: flex;
-    flex-direction: column;
-
+    justify-self: start;
+    justify-content: center;
+    align-items: center;
+    width: 416px;
+    height: 275px;  
 }
